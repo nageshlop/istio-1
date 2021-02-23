@@ -5,6 +5,5 @@ arch:
   - ppc64le
   - amd64
 go:
-  - 1.15.x
-
-script: go test -v ./...
+  - 1.15
+  - tip
