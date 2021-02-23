@@ -1,0 +1,10 @@
+language: go
+sudo: false
+dist: focal
+arch:
+  - ppc64le
+  - amd64
+go:
+  - 1.15.x
+
+script: go test -v ./...
