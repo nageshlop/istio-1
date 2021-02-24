@@ -1,6 +1,6 @@
 language: go
 sudo: false
-dist: focal
+dist: bionic
 arch:
   - ppc64le
   - amd64
